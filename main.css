@@ -1,0 +1,131 @@
+
+  /* Estilos para el fondo de pantalla */
+  body {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.719), rgba(118, 2, 250, 0.788), rgba(0, 0, 0, 0.719)),
+    url('bg.png');  
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    margin-top: 5%;
+    font-size: 1.5rem;
+  }
+
+ 
+  figure {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  img {
+    width: 30px;
+    height: auto;
+    margin: 0 auto;
+    margin-left: 28%;
+    border: 8px solid #00fff225;
+    border-radius: 50%;
+    max-width: 36%;
+    transition: max-width 1s ease-out;
+
+  }
+
+  img:hover {
+    max-width: 42%;
+  }
+  
+  /* Estilos para el texto */
+  p, li {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para las listas */
+  ul, ol {
+    margin-left: 30px;
+  }
+
+  p, h2 {
+    margin-left: 10px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    transition: font-size 0.5s;
+  }
+  
+  h2:hover {
+    font-size: 1.6rem;
+    transition: font-size 0.5s;
+  }
+
+  .container {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  /* Estilos para los enlaces */
+  a {
+    color: rgb(101, 101, 250);
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para la fecha de actualización */
+  footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+  }
+  
+  /* Estilos para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    figure {
+      margin: 0 auto;
+    }
+    img {
+      width: 100%;
+    }
+    main {
+      margin: 20px;
+    }
+  }
+  
+  /* Estilos para pantallas medianas y grandes */
+  @media screen and (min-width: 601px) {
+    body {
+      font-size: 16px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    figure {
+      margin: 0 auto;
+      width: 50%;
+    }
+    img {
+      width: 100%;
+    }
+    main {
+      margin: 40px;
+    }
+  }
+  
